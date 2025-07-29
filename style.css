@@ -1,0 +1,89 @@
+/* style.css */
+
+body {
+  margin: 0;
+   font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #cb6f84;
+  color: white;
+  padding: 20px 0;
+}
+
+.cabecalho .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.titulo-site {
+  font-size: 1.8rem;
+}
+
+/* Seções */
+.galeria {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.galeria h2 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.item p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+h3{
+    text-align: center;
+    color: #555;
+}
+.logotipo{
+     width: 100px;
+  height: auto;
+
+}
+button{
+    background-color: #007C00;
+    border-radius: 30PX;
+    color: white;
+}
