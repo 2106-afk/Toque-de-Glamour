@@ -86,4 +86,59 @@ button{
     background-color: #007C00;
     border-radius: 30PX;
     color: white;
+    padding: 8px;
 }
+/* Rodapé */
+.rodape {
+  background-color: #cb6f84;
+  color: black;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+.rodape .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape .marca {
+  margin-bottom: 10px;
+}
+
+.rodape .redes-sociais a {
+  margin: 0 8px;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.rodape .redes-sociais a:hover {
+  transform: scale(1.1);
+}
+
+.rodape .redes-sociais img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.botao {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #1ebe5d;
+}
+
+
